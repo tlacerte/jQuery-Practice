@@ -1,20 +1,7 @@
-clearList();
+$('#add').on("click", function(){
+    let $input = $("input").val();
+    console.log($input);
+    $('.main').append(`<div id='text'><span id='box'>X</span>${$input}</div>`);
 
-const clearList = function(){
-    $('.main').remove('.text');
-}
-
-let list = [];
-
-$('#add').on("click", addToList(){
-    $('#text').html(getListItem);
-}
-
-const getListItem = function(devSkill) {
-    let devSkill = '';
-    return devSkill;
-}
-
-const addToList = function(devSkill){
-    list.push(devSkill)
-}
+    $("input").val("");
+})
