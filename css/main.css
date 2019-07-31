@@ -69,3 +69,7 @@ span {
     align-items: flex-start;
     width: 300px;
 }
+
+.ftr {
+    margin-top: 10px;
+}

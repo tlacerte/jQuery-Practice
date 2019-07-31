@@ -5,3 +5,8 @@ $('#add').on("click", function(){
 
     $("input").val("");
 })
+
+$('.main').on('click', function(){
+    let $listtext = $('#text');
+    $listtext.remove();
+})
